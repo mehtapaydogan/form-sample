@@ -1,0 +1,8 @@
+*{ 
+    margin:0; paddig:0 ; 
+}
+body{ color:rgb(red, rgb(86, 193, 86), blue); background-color:blanchedalmond ;}
+.container{ height: 1000px;}
+header{ text-align: center; paddindg="20px 0"; }
+.description{ font-family: 'Courier New', Courier, monospace; }
+.form-container{ width: 500px; }
