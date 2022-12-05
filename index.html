@@ -7,6 +7,7 @@ la
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -31,28 +32,56 @@ la
                     </div>
                     <div class="input-box">
                         <label for="name">email</label><br>
-                        <input type="email" id="email" name="email" placeholder="Lütfen mailnizi giriniz">
-</header>
-<div class=" form-container"></div>
-<div class="survey-form"> </div>
-<form action="result.html" method="get"></form>
-<div class="input-box"> </div>
-<div class="input-box" ></div>
-<div class="input-box"> </div>
-<div class="input-box" ></div>
-<div class="input-box"> </div>
-<label for="gender>cinsiyet"></label><br><
- <input type="radio" name="gender"  id="first-radio" value="male">  
- <label for="first-radio">Erkek</label><br>
- <input type="radio" name="gender" id="second-radio" value="female">
- <label for="second-radio">Kadın</label><br>
- <input type="radio" name="gender" id="th-radio" value="female">
- <label for="second-radio">Diğer</label><br>
- <input type="radio" name="gender" id="first-radio" value>
- <label for="first radio">erkek</label><br>
- <input type="radio" name="gender" id="second-radio" value="other">
-  <label
- </div>
+                        <input type="email" id="email" name="email" placeholder="Lütfen mailnizi giriniz" required></div>
+                    
+                       <div class="input-box">
+                        <label for="phone">Telefon No</label><br>
+                        <input type="phone id=phone" name="phone "  placeholder="lütfen numaranızı yazın" min="9" max="15"></div>
+                      
+                     <div class="input-box">
+                        <h4>SEVDİĞİNİZ KİTAP TÜRLERİ</h4>
+                        <input type="checkbox" name="first-check" id="novel" value="Novel" checked>
+                        <label for="novel">Roman</label>
+                        <br>
+                        <input type="checkbox" name="second-check" id="fiction" value="Fiction">
+                        <label for="fiction">Bilim-Kurgu</label>
+                        <br>
+                        <input type="checkbox" name="third-check" id="history" value="History">
+                        <label for="history">Tarih</label>
+                      </div>
+                      <div class="input-box"><br><br>
+                        <label for="gender" >CİNSİYET</label><br>
+                         <input type="radio" name="gender" id="first-radio" value="male">
+                            <label for="first-radio">Erkek</label><br>
+                            <input type="radio" name="gender" id="second-radio" value="female">
+                            <label for="second-radio">Kadın</label><br>
+                            <input type="radio" name="gender" id="th-radio" value="other">
+                            <label for="third-radio">Diğer</label><br></div>
+                            <div class="input-box"><br><br>
+                                <label for="city">YAŞADIĞINIZ ŞEHİR</label>
+                                <br>
+                                <select name="city" id="dropdown">
+                                  <option value="İstanbul">İstanbul</option><br>
+                                  <option value="Ankara">Ankara</option><br>
+                                  <option value="İzmir" selected>İzmir</option>br
+                                  <option value="Bursa">Bursa</option>br
+                                  <option value="Gaziantep">Gaziantep</option>br
+                                </select>
+                              </div>
+                              <div class="input-box">
+                                <label for="file">Dosya</label><br>
+                                <input type="file" id="file" multiple><br>
+                              </div>
+                              <div id="form-submit"><br>
+                                <input type="submit" value="Gönder" id="form-button"><br>
+                            </div>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                    </body>
+                    </html>
+                           
 
 
 </html>

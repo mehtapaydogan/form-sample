@@ -1,8 +1,50 @@
 *{ 
-    margin:0; paddig:0 ; 
+    margin:0; paddig:0  box-sizing=box-sizing; 
 }
 body{ color:rgb(red, rgb(86, 193, 86), blue); background-color:blanchedalmond ;}
-.container{ height: 1000px;}
+.container{height: 1000px; 
+height:1000px;}
+
 header{ text-align: center; paddindg="20px 0"; }
-.description{ font-family: 'Courier New', Courier, monospace; }
-.form-container{ width: 500px; }
+.description{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 21px;
+}
+.form-container{
+  width: 500px;
+  background-color: beige;
+  margin: auto;
+  color: blueviolet;
+}
+
+.survey-form{
+  max-width: 450px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-box{
+  margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
